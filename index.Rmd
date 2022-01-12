@@ -56,7 +56,7 @@ survey <- data %>%
 
 ```
 
-# About the group!
+# About the group! (n=15)
 
 ```{r fig.align="center", echo=FALSE, warning = FALSE, error = FALSE, fig.height = 11, fig.width = 19, message = FALSE}
 
@@ -175,6 +175,21 @@ survey %>%
 
 ---
 
+# Introductions
+
+1. Your name
+2. Your current role as it relates to data management
+3. Bonus: A personal data management horror story
+
+```{r fig.align="center", echo=FALSE ,out.width='65%', out.height= '50%'}
+
+knitr::include_graphics("img/scary.gif")
+
+```
+Source: [Buzzfeed](https://www.buzzfeed.com/angelicaamartinez/real-life-paranormal-encounters)
+
+---
+
 # Research Data Management 
 
 ```{r fig.align="center", echo=FALSE ,out.width='65%', out.height= '65%'}
@@ -186,6 +201,7 @@ knitr::include_graphics("img/lifecycle.png")
 Source: [Colorado School of Mines](https://libguides.mines.edu/c.php?g=949816&p=6850016)
 
 ---
+
 class: inverse
 
 # This Hub
@@ -201,21 +217,6 @@ Purpose of this group:
 4. Once a year larger meeting to share info with a larger group from POWER?
 
 5. Any other ideas?
-
----
-
-# Introductions
-
-1. Your name
-2. Your current role as it relates to data management
-3. Bonus: A personal data management horror story
-
-```{r fig.align="center", echo=FALSE ,out.width='65%', out.height= '50%'}
-
-knitr::include_graphics("img/scary.gif")
-
-```
-Source: [Buzzfeed](https://www.buzzfeed.com/angelicaamartinez/real-life-paranormal-encounters)
 
 ---
 
@@ -246,10 +247,21 @@ knitr::include_graphics("img/article.png")
 
 2. What is the most frequent data management mistake? What is the most serious data management mistake? As well as the details of each:
   - cause (open text)
-  - frequency (very low to very high frequency)
+  - frequency (very low to very high frequency) - only asked for most frequent data mgmt mistake
   - seriousness (insignificant to extreme severity)
   - negative outcome (select one from a list of outcomes, or "other" with write in option)
+  
+---
 
+# Methods
+
+The authors provided examples of what they meant by data management mistakes
+
+```{r fig.align="center", echo=FALSE ,out.width='50%', out.height= '50%'}
+
+knitr::include_graphics("img/examples.png")
+
+```
 
 ---
 
@@ -265,7 +277,7 @@ knitr::include_graphics("https://journals.sagepub.com/na101/home/literatum/publi
 ]
 
 .pull-right[
-+ Authors completed some pre-processing and grouping of ratings and free text inputs based on several criteria (more details in the paper)
+Authors completed some pre-processing and grouping of ratings and free text inputs based on several criteria (more details in the paper)
 
 <br>
 
@@ -408,6 +420,17 @@ knitr::include_graphics("img/serious_mistake.png")
 knitr::include_graphics("https://journals.sagepub.com/na101/home/literatum/publisher/sage/journals/content/ampa/2021/ampa_4_4/25152459211045930/20211020/images/large/10.1177_25152459211045930-table8.jpeg")
 
 ```
+
+---
+
+# Next steps
+
+Authors suggest the following next research questions:
+
+1. What practices do researchers use to improve efficiency and quality control in data management?
+
+2. What prevents researchers from using existing solutions? 
+3. What is needed to increase adoption of these solutions?
 
 ---
 class:inverse
