@@ -255,13 +255,21 @@ knitr::include_graphics("img/article.png")
 
 # Methods
 
-The authors provided examples of what they meant by data management mistakes
+At the beginning of the survey, the authors provided examples of what they meant by data management mistakes
 
-```{r fig.align="center", echo=FALSE ,out.width='50%', out.height= '50%'}
++ We had a software error in the experimental program where old answers were overwritten by new answers
 
-knitr::include_graphics("img/examples.png")
++ We only realized after a week that we had been working on the wrong version of a dataset
 
-```
++ When we moved data between spreadsheet we only partially selected the data which led to data loss
+
++ We mixed up the default level of a categorical variable
+
++ We used uninformative variable names that made it hard to re-use the dataset
+
+<br>
+
+The entire survey can be found here: [https://osf.io/67dfz/](https://osf.io/67dfz/)
 
 ---
 
